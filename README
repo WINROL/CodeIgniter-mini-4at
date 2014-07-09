@@ -1,1 +1,14 @@
-Здравствуйте, Я Смык Руслан, - WINROL. Сдесь Вы сможете найти и просмотреть примеры моего кода.
+Мини-чaт нa Codeigniter Framework 2.1.3
+Устaновкa:
+	1. создать бд, utf8_general_ci
+	2. залить дамп 4at_ci.sql
+	3. создать на денвере/сервере сайт 
+	4. перекачать
+	5. прописать в application/config/database.php  данные бд:
+
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = 'root';
+	$db['default']['password'] = '';
+	$db['default']['database'] = '4at_ci';
+
+	6. files, user_files, uploads - 777
