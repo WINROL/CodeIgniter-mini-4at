@@ -2,7 +2,8 @@
 
 
 class M_User extends CI_Model{
-    
+
+    //test_branch
     //добавление нового юзера
 	public function addUser($login,$pass,$email,$town,$avatar){
 	   
@@ -33,7 +34,7 @@ class M_User extends CI_Model{
     public function getUserById($id){
 	   
         $CI =& get_instance();
-        $CI->db->where('user_id',intval($id));
+        $CI->db->where('user_id', intval($id));
         $user = $CI->db->get('user')->row_array();
         
        return $user;
